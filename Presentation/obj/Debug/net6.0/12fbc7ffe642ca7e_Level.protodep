@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Protos/Level.cs \
+obj\Debug\net6.0\Protos/LevelGrpc.cs: Protos/Level.proto

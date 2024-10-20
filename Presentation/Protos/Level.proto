@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "Presentation.Protos";
+
+service level {
+	rpc GetLevels(GetLevelsDtoRequest) returns (LevelDto);
+	rpc GetLevel(GetLevelDtoRequest) returns (LevelDto);
+}
+
+message LevelDto
+{
+	int32 Id =1;
+	string Title =2;
+	int32 TeacherId =3;
+	int32 Order =4;
+	bool Status =5;
+}
+
+message GetLevelsDtoRequest
+{
+    int32 TeacherId = 1;
+}    
+
+message GetLevelDtoRequest
+{
+	int32 LevelId=1;
+}        

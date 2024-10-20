@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "CZEXHydQG5VgRqAjjUevNaKflyQ4QXb+siHy5C0JTFMbPBxX3t9U9v/R/Oaeja4wNssESVSaZoveGw3ASNE4Bg==",
+  "success": false,
+  "projectFilePath": "D:\\Repo\\Learn\\Presentation\\Presentation.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Common is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project Common supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Data is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project Data supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Data",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

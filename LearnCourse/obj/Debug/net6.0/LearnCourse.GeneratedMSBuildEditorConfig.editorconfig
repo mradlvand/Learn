@@ -1,0 +1,147 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LearnCourse
+build_property.RootNamespace = LearnCourse
+build_property.ProjectDir = D:\Repo\lingomarsbak\LingoMars\LearnCourse\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Repo\lingomarsbak\LingoMars\LearnCourse
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/GeneralContents/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbENvbnRlbnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/GeneralContents/DeleteGrammer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbENvbnRlbnRzXERlbGV0ZUdyYW1tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/GeneralContents/DeleteSpeak.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbENvbnRlbnRzXERlbGV0ZVNwZWFrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/GeneralContents/DeleteVocab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbENvbnRlbnRzXERlbGV0ZVZvY2FiLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/GeneralContents/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbENvbnRlbnRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/GeneralContents/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbENvbnRlbnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/GeneralContents/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJhbENvbnRlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Home/LoginError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbkVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Lessons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Lessons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Lessons/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Lessons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Lessons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVzc29uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Levels/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Levels/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Levels/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Levels/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Levels/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGV2ZWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Shared/layoutBak/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGxheW91dEJha1xfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-w02h3df1cp
+
+[D:/Repo/lingomarsbak/LingoMars/LearnCourse/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6sj7m6ibvg
