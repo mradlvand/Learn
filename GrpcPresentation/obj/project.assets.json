@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net8.0": {
       "Google.Protobuf/3.27.0": {
         "type": "package",
         "compile": {
@@ -23,10 +23,10 @@
           "Grpc.Tools": "2.66.0"
         },
         "compile": {
-          "lib/net6.0/_._": {}
+          "lib/net8.0/_._": {}
         },
         "runtime": {
-          "lib/net6.0/_._": {}
+          "lib/net8.0/_._": {}
         }
       },
       "Grpc.AspNetCore.Server/2.66.0": {
@@ -35,12 +35,12 @@
           "Grpc.Net.Common": "2.66.0"
         },
         "compile": {
-          "lib/net6.0/Grpc.AspNetCore.Server.dll": {
+          "lib/net8.0/Grpc.AspNetCore.Server.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Grpc.AspNetCore.Server.dll": {
+          "lib/net8.0/Grpc.AspNetCore.Server.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -55,12 +55,12 @@
           "Grpc.Net.ClientFactory": "2.66.0"
         },
         "compile": {
-          "lib/net6.0/Grpc.AspNetCore.Server.ClientFactory.dll": {
+          "lib/net8.0/Grpc.AspNetCore.Server.ClientFactory.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Grpc.AspNetCore.Server.ClientFactory.dll": {
+          "lib/net8.0/Grpc.AspNetCore.Server.ClientFactory.dll": {
             "related": ".pdb;.xml"
           }
         },
@@ -88,12 +88,12 @@
           "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Grpc.Net.Client.dll": {
+          "lib/net8.0/Grpc.Net.Client.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Grpc.Net.Client.dll": {
+          "lib/net8.0/Grpc.Net.Client.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -105,12 +105,12 @@
           "Microsoft.Extensions.Http": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Grpc.Net.ClientFactory.dll": {
+          "lib/net8.0/Grpc.Net.ClientFactory.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Grpc.Net.ClientFactory.dll": {
+          "lib/net8.0/Grpc.Net.ClientFactory.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -121,12 +121,12 @@
           "Grpc.Core.Api": "2.66.0"
         },
         "compile": {
-          "lib/net6.0/Grpc.Net.Common.dll": {
+          "lib/net8.0/Grpc.Net.Common.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/Grpc.Net.Common.dll": {
+          "lib/net8.0/Grpc.Net.Common.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -895,7 +895,7 @@
       },
       "Common/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/Common.dll": {}
         },
@@ -905,7 +905,7 @@
       },
       "Data/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.29",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.29",
@@ -920,7 +920,7 @@
       },
       "Model/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/Model.dll": {}
         },
@@ -2375,7 +2375,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net8.0": [
       "Common >= 1.0.0",
       "Data >= 1.0.0",
       "Grpc.AspNetCore >= 2.66.0"
@@ -2388,11 +2388,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LingoMars\\ApiLearn\\GrpcPresentation\\GrpcPresentation.csproj",
+      "projectUniqueName": "D:\\Repo\\Learn\\GrpcPresentation\\GrpcPresentation.csproj",
       "projectName": "GrpcPresentation",
-      "projectPath": "D:\\LingoMars\\ApiLearn\\GrpcPresentation\\GrpcPresentation.csproj",
+      "projectPath": "D:\\Repo\\Learn\\GrpcPresentation\\GrpcPresentation.csproj",
       "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "D:\\LingoMars\\ApiLearn\\GrpcPresentation\\obj\\",
+      "outputPath": "D:\\Repo\\Learn\\GrpcPresentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2403,7 +2403,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -2411,14 +2411,14 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\LingoMars\\ApiLearn\\Common\\Common.csproj": {
-              "projectPath": "D:\\LingoMars\\ApiLearn\\Common\\Common.csproj"
+            "D:\\Repo\\Learn\\Common\\Common.csproj": {
+              "projectPath": "D:\\Repo\\Learn\\Common\\Common.csproj"
             },
-            "D:\\LingoMars\\ApiLearn\\Data\\Data.csproj": {
-              "projectPath": "D:\\LingoMars\\ApiLearn\\Data\\Data.csproj"
+            "D:\\Repo\\Learn\\Data\\Data.csproj": {
+              "projectPath": "D:\\Repo\\Learn\\Data\\Data.csproj"
             }
           }
         }
@@ -2430,8 +2430,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Grpc.AspNetCore": {
             "target": "Package",
@@ -2457,7 +2457,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

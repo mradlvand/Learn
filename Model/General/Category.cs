@@ -11,5 +11,6 @@ namespace Model.General
         Japanese = 2,
         Germany = 3,
         Matematic = 4,
+        Demo = 5,
     }
 }

@@ -7,9 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Files\**" />
     <Compile Remove="wwwroot\images\levelsFile\**" />
+    <Content Remove="Files\**" />
     <Content Remove="wwwroot\images\levelsFile\**" />
+    <EmbeddedResource Remove="Files\**" />
     <EmbeddedResource Remove="wwwroot\images\levelsFile\**" />
+    <None Remove="Files\**" />
     <None Remove="wwwroot\images\levelsFile\**" />
   </ItemGroup>
 
@@ -334,12 +338,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Files\Level\" />
-    <Folder Include="Files\Lesson\" />
-    <Folder Include="Files\Grammer\" />
-    <Folder Include="Files\Exercise\" />
-    <Folder Include="Files\Speaking\" />
-    <Folder Include="Files\Vocab\" />
     <Folder Include="wwwroot\assets\CKEditor\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\upload\" />
