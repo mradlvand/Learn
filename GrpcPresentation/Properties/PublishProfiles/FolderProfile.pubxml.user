@@ -3,4 +3,9 @@
 https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\EEZA\Desktop\PublishGrpc</_PublishTargetUrl>
+    <History>True|2024-10-24T16:48:09.3036927Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
 </Project>

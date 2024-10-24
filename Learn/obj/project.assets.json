@@ -7844,24 +7844,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\EEZA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repo\\Learn\\Learn\\Learn.csproj",
+      "projectUniqueName": "E:\\Learn\\Learn\\Learn.csproj",
       "projectName": "Learn",
-      "projectPath": "D:\\Repo\\Learn\\Learn\\Learn.csproj",
-      "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-      "outputPath": "D:\\Repo\\Learn\\Learn\\obj\\",
+      "projectPath": "E:\\Learn\\Learn\\Learn.csproj",
+      "packagesPath": "C:\\Users\\EEZA\\.nuget\\packages\\",
+      "outputPath": "E:\\Learn\\Learn\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\EEZA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7876,8 +7871,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Repo\\Learn\\Data\\Data.csproj": {
-              "projectPath": "D:\\Repo\\Learn\\Data\\Data.csproj"
+            "E:\\Learn\\Data\\Data.csproj": {
+              "projectPath": "E:\\Learn\\Data\\Data.csproj"
             }
           }
         }
@@ -7886,6 +7881,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -7948,7 +7948,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

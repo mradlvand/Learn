@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repo\\Learn\\GrpcPresentation\\GrpcPresentation.csproj": {}
+    "E:\\Learn\\GrpcPresentation\\GrpcPresentation.csproj": {}
   },
   "projects": {
-    "D:\\Repo\\Learn\\Common\\Common.csproj": {
+    "E:\\Learn\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repo\\Learn\\Common\\Common.csproj",
+        "projectUniqueName": "E:\\Learn\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\Repo\\Learn\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "D:\\Repo\\Learn\\Common\\obj\\",
+        "projectPath": "E:\\Learn\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\EEZA\\.nuget\\packages\\",
+        "outputPath": "E:\\Learn\\Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\EEZA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,25 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Repo\\Learn\\Data\\Data.csproj": {
+    "E:\\Learn\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repo\\Learn\\Data\\Data.csproj",
+        "projectUniqueName": "E:\\Learn\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\Repo\\Learn\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "D:\\Repo\\Learn\\Data\\obj\\",
+        "projectPath": "E:\\Learn\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\EEZA\\.nuget\\packages\\",
+        "outputPath": "E:\\Learn\\Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\EEZA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Repo\\Learn\\Model\\Model.csproj": {
-                "projectPath": "D:\\Repo\\Learn\\Model\\Model.csproj"
+              "E:\\Learn\\Model\\Model.csproj": {
+                "projectPath": "E:\\Learn\\Model\\Model.csproj"
               }
             }
           }
@@ -103,6 +100,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -146,25 +148,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Repo\\Learn\\GrpcPresentation\\GrpcPresentation.csproj": {
+    "E:\\Learn\\GrpcPresentation\\GrpcPresentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repo\\Learn\\GrpcPresentation\\GrpcPresentation.csproj",
+        "projectUniqueName": "E:\\Learn\\GrpcPresentation\\GrpcPresentation.csproj",
         "projectName": "GrpcPresentation",
-        "projectPath": "D:\\Repo\\Learn\\GrpcPresentation\\GrpcPresentation.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "D:\\Repo\\Learn\\GrpcPresentation\\obj\\",
+        "projectPath": "E:\\Learn\\GrpcPresentation\\GrpcPresentation.csproj",
+        "packagesPath": "C:\\Users\\EEZA\\.nuget\\packages\\",
+        "outputPath": "E:\\Learn\\GrpcPresentation\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\EEZA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -179,11 +177,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Repo\\Learn\\Common\\Common.csproj": {
-                "projectPath": "D:\\Repo\\Learn\\Common\\Common.csproj"
+              "E:\\Learn\\Common\\Common.csproj": {
+                "projectPath": "E:\\Learn\\Common\\Common.csproj"
               },
-              "D:\\Repo\\Learn\\Data\\Data.csproj": {
-                "projectPath": "D:\\Repo\\Learn\\Data\\Data.csproj"
+              "E:\\Learn\\Data\\Data.csproj": {
+                "projectPath": "E:\\Learn\\Data\\Data.csproj"
               }
             }
           }
@@ -192,6 +190,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -201,6 +204,26 @@
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.66.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
             }
           },
           "imports": [
@@ -222,25 +245,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Repo\\Learn\\Model\\Model.csproj": {
+    "E:\\Learn\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repo\\Learn\\Model\\Model.csproj",
+        "projectUniqueName": "E:\\Learn\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Repo\\Learn\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
-        "outputPath": "D:\\Repo\\Learn\\Model\\obj\\",
+        "projectPath": "E:\\Learn\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\EEZA\\.nuget\\packages\\",
+        "outputPath": "E:\\Learn\\Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\EEZA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -261,6 +280,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -282,7 +306,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

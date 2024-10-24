@@ -22,6 +22,10 @@ namespace Data.Context
         public DbSet<UserProgress> UserProgresses { get; set; }
         public DbSet<Award> Awards { get; set; }
         public DbSet<UserAward> UserAwards { get; set; }
+        public DbSet<Podcast> Podcasts { get; set; }
+        public DbSet<PodcastCategory> PodcastCategories { get; set; }
+        public DbSet<Story> Stories { get; set; }
+
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
@@ -34,7 +38,7 @@ namespace Data.Context
         //    optionsBuilder.UseSqlServer(connectionString);
         //}
 
-       
+
 
     }
 }

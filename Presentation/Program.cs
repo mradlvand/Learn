@@ -20,8 +20,8 @@ builder.Services.AddControllers()
         .AddJsonOptions(options =>
         options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 
-var connectionString = builder.Configuration.GetConnectionString("LearnContext");
-builder.Services.AddDbContext<DBLearnContext>(x => x.UseSqlServer(connectionString));
+//var connectionString = builder.Configuration.GetConnectionString("LearnContext");
+//builder.Services.AddDbContext<DBLearnContext>(x => x.UseSqlServer(connectionString));
 
 builder.Services.AddScoped<ILevelLogic, LevelLogic>();
 builder.Services.AddScoped<ILessonLogic, LessonLogic>();

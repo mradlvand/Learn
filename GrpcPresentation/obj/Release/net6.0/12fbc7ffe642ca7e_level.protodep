@@ -1,2 +1,0 @@
-obj\Release\net6.0\Protos/Level.cs \
-obj\Release\net6.0\Protos/LevelGrpc.cs: Protos/level.proto

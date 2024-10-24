@@ -5,17 +5,22 @@ option csharp_namespace = "GrpcPresentation";
 package level;
 
 service Level {
-  rpc GetLevels (LevelRequest) returns (LevelReply);
+  rpc GetLevels (LevelsRequest) returns (LevelsReply);
   rpc SayHello (HelloRequest2) returns (HelloReply2);
 }
 
-message LevelRequest{
-  int32 teacherid = 1;
+message LevelsRequest{
+	int32 userId = 1;
 }
 
-message LevelReply{
+message LevelsReply{
+	repeated LevelModel levels = 1;
+}
+
+message LevelModel{
+	int32 levelId = 1;
   string title = 2;
-  string timeInSum = 3;
+  int32 timeInSum = 3;
   int32 progress = 4;
 }
 

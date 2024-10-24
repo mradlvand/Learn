@@ -22,10 +22,5 @@ namespace Model.Models
         public Level Level { get; set; }
         [ForeignKey("LevelId")]
         public int LevelId { get; set; }
-
-        public List<Vocabulary> Vocabularies { get; set; }
-        public List<Speaking> Speakings { get; set; }
-        public List<Grammer> Grammers { get; set; }
-        public List<Exercise> Exercises { get; set; }
     }
 }

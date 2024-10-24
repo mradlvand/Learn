@@ -8,24 +8,40 @@ namespace GrpcPresentation.Services
 {
     public class LevelService : Level.LevelBase
     {
-        private readonly ILogger<GreeterService> _logger;
+        private readonly ILogger<LevelService> _logger;
         private readonly DBLearnContext _context;
-        public LevelService(ILogger<GreeterService> logger, DBLearnContext context)
+        public LevelService(ILogger<LevelService> logger, DBLearnContext context)
         {
             _logger = logger;
             _context = context;
         }
 
-        public override Task<LevelReply> GetLevels(LevelRequest request, ServerCallContext context)
+        public override Task<LevelsReply> GetLevels(LevelsRequest request, ServerCallContext context)
         {
-            var levels = _context.Levels.Where(x => x.TeacherId == request.Teacherid).Select(a => new LevelReply
-            {
-                Progress = 0,
-                TimeInSum = "0",
-                Title = a.Title,
-            }).ToList();
+            var query = _context.Levels.Join(_context.UserProgresses,
+                        lev => lev.Id,
+                        userp => userp.LevelId,
+                        (lev, userp) => new
+                        {
+                            levelId = lev.Id,
+                            title = lev.Title,
+                            userId = userp.UserId,
+                            progress = userp.ProgressPercent,
+                            timeInSum = userp.TimeInSum
+                        })
+                        .Where(x => x.userId == request.UserId)
+                        .Select(x => new LevelModel()
+                         {
+                             LevelId = x.levelId,
+                             Progress = x.progress,
+                             TimeInSum = x.timeInSum,
+                             Title = x.title,
+                         }).ToList();
 
-            return Task.FromResult(levels.FirstOrDefault());
+            var replyModel = new LevelsReply();
+            replyModel.Levels.AddRange(query);
+
+            return Task.FromResult(replyModel);
         }
 
         public override Task<HelloReply2> SayHello(HelloRequest2 request, ServerCallContext context)

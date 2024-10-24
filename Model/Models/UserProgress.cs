@@ -21,5 +21,7 @@ namespace Model.Models
         public int LevelId { get; set; }
 
         public int ProgressPercent { get; set; }
+
+        public int TimeInSum { get; set; }
     }
 }

@@ -14,8 +14,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-var connectionString = builder.Configuration.GetConnectionString("LearnContext");
-builder.Services.AddDbContext<DBLearnContext>(x => x.UseSqlServer(connectionString));
+//var connectionString = builder.Configuration.GetConnectionString("LearnContext");
+//builder.Services.AddDbContext<DBLearnContext>(x => x.UseSqlServer(connectionString));
+
+builder.Services.AddDbContext<DBLearnContext>(db => db.UseSqlServer(builder.Configuration.GetConnectionString("LearnContext")), ServiceLifetime.Singleton);
+
 
 builder.Services.AddScoped<IUserService, UserService>();
 
